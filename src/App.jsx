@@ -1,4 +1,17 @@
+// src/App.jsx
+// ──────────────────────────────────────────────────────────────────────────────
 import { Routes, Route } from 'react-router-dom'
+import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
+import OurServices from './pages/OurServices.jsx'
+import Volunteers from './pages/Volunteers.jsx'
+import Careers from './pages/Careers.jsx'
+import WaysToGiveBack from './pages/WaysToGiveBack.jsx'
+import Calendar from './pages/Calendar.jsx'
+import PastEvents from './pages/PastEvents.jsx'
+import Contact from './pages/Contact.jsx'
+
+
 export default function App() {
 return (
 <div className="app">
@@ -18,34 +31,5 @@ return (
 </main>
 <Footer />
 </div>
-)
-}
-
-
-// ──────────────────────────────────────────────────────────────────────────────
-// src/components/Header.jsx
-// ──────────────────────────────────────────────────────────────────────────────
-import { NavLink } from 'react-router-dom'
-
-
-export default function Header() {
-return (
-<header className="site-header">
-<div className="container header-inner">
-<div className="brand">
-<span className="logo">KingWood Hospice</span>
-<span className="subhead">Houston, Texas</span>
-</div>
-<nav className="nav">
-<NavLink to="/services">Our Services</NavLink>
-<NavLink to="/volunteers">Volunteers</NavLink>
-<NavLink to="/careers">Careers</NavLink>
-<NavLink to="/ways-to-give">Ways to Give Back</NavLink>
-<NavLink to="/calendar">Calendar</NavLink>
-<NavLink to="/past-events">Past Events</NavLink>
-<NavLink to="/contact" className="cta">Contact</NavLink>
-</nav>
-</div>
-</header>
 )
 }

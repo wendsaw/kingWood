@@ -1,5 +1,3 @@
-// src/components/Header.jsx
-// ──────────────────────────────────────────────────────────────────────────────
 import { NavLink } from 'react-router-dom'
 
 
