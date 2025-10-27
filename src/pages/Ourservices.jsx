@@ -3,7 +3,7 @@
 export default function OurServices() {
 return (
 <section className="stack">
-<h1>Compassionate Hospice Care in Houston</h1>
+<h1> Hospice Care in Houston</h1>
 <p>
 We provide patient-centered hospice services across Houston and surrounding
 communities, focusing on comfort, dignity, and support for both patients
